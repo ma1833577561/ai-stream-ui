@@ -5,6 +5,8 @@
 
 **一个能扛住真实网络的流式对话前端。** 增量 SSE 解析、断线续传、Markdown 不抖动、token 级合帧，内置确定性 mock transport——克隆下来就能跑，不需要 API key。
 
+**在线 demo**：[ma1833577561.github.io/ai-stream-ui](https://ma1833577561.github.io/ai-stream-ui/)（纯静态托管，也不需要 API key）
+
 ![演示](docs/demo-done.jpg)
 
 > 右侧的 `runtime` 面板不是装饰：它是这四条断言的实时证据。`delta 分片 135 / 渲染帧 36 / 合并掉 99` 表示一次回答只触发了 36 次 `setState`。
